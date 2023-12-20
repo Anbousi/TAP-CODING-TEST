@@ -1,0 +1,41 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 40px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-item{
+    padding: 3%;
+}
+
+ul{
+   list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.phone-symbol {
+    color: black !important;
+}
+
+ul li a.active {
+    color: #d1884f; /* Set the active link color */
+}
+
+.centered-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh; /* 80% of the viewport height */
+  }
